@@ -8,6 +8,7 @@ body * {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    background-color: #FFDBED;
   }
   
   h1,
@@ -28,17 +29,19 @@ body * {
     -moz-text-align: center; /*works on Firefox */
     -webkit-text-align: center; /*works on Safari and Google Chrome*/
     text-align: center;
-    background-color: #262626;
+    background-image: url("https://assets.onecompiler.app/43fgm66dp/43fgm7xrp/81459b98fcd61238fde148a9c1824356.jpg");
+    background-repeat: no-repeat; /* <- Add this line */
+    background-size: cover;       /* Optional: scales the image to fill screen */
     -moz-padding: 20px; /*works on Firefox */
     -webkit-padding: 20px; /*works on Safari and Google Chrome*/
     padding: 20px;
   }
   
   .image-section img {
-    max-width: 60%;
+    max-width: 70%;
     max-height: 60%;
     margin-top: 50px !important;
-    object-fit: cover;
+    object-fit: wrap;
   }
   
   .links {
